@@ -698,7 +698,7 @@ header ul>li{display:inline-block;
 	margin-right:15px;
 	line-height:40px;
 	font-size:12px;
-	font-family:Roboto-Medium}
+	font-family:Panton-Regular}
 
 header ul>li:last-child{margin-right: 0}
 
@@ -792,6 +792,15 @@ header ul .specialView .dropdown-menu{right:-15px;
 	font-family: "CenturyGothic";
 	src:url(../bootstrap/font/CenturyGothicRegular/CenturyGothic.ttf),url("../bootstrap/font/CenturyGothicRegular/CenturyGothic.woff") format("woff");
 }
+@font-face {
+	font-family: Panton-Regular;
+	src: url("../bootstrap/font/ponton/Panton-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Panton-Bold;
+	src: url("../bootstrap/font/ponton/Panton-Bold.otf") format("opentype");
+}
 
 
 
@@ -815,29 +824,29 @@ header ul .specialView .dropdown-menu{right:-15px;
 .main-header .logo .logo-text h1{font-size:22px;
 	margin-top:15px;
 	line-height:20px;
-	font-family:CenturyGothic;
+	font-family:Panton-Bold;
 	white-space:nowrap}
 
 .main-header .logo .logo-text h2{font-size:21px;
 	margin:-6px 0 0 0;
 	margin-bottom:5px;
-	font-family:CenturyGothic;
+	font-family:Panton-Bold;
 	letter-spacing:2px}
 
 .main-header .logo .logo-text p{font-size:14px;
-	font-family:CenturyGothic;
+	font-family:Panton-Regular;
 	margin-top:-8px}
 
 .main-header .call-center{cursor:pointer;
 	text-align:right;
 	color:#56668d;
-	font-family:CenturyGothic;
+	font-family:Panton-Regular;
 	display:inline-block;
 	float:right}
 
 .main-header .call-center a{text-align:right;
 	color:#56668d;
-	font-family:CenturyGothic}
+	font-family:Panton-Regular}
 
 .main-header .call-center h3{font-size:14px;
 	line-height:18px}
@@ -850,3 +859,59 @@ header ul .specialView .dropdown-menu{right:-15px;
 	margin-left:5px}
 
 .main-header .call-center>h4{text-decoration:underline}
+
+.section-slider {
+	padding: 50px 0 20px;
+	position: relative;
+	background: url(../bootstrap/img/bg.jpg);
+	-webkit-box-shadow: inset 0 0 13px 5px rgba(0,0,0,.15);
+	box-shadow: inset 0 0 13px 5px rgba(0,0,0,.15);
+	overflow: hidden;
+}
+
+.section-slider {
+	padding: 50px 0 20px;
+	position: relative;
+	min-height: 400px;
+	background: url(../bootstrap/img/bg.jpg);
+	background-size: 14%;
+	-webkit-box-shadow: inset 0 0 13px 5px rgba(0,0,0,.15);
+	box-shadow: inset 0 0 13px 5px rgba(0,0,0,.15);
+	overflow: hidden;
+}
+
+.section-murojaat{
+	padding: 50px 0 20px;
+	position: relative;
+	min-height: 400px;
+	overflow: hidden;
+}
+
+
+.title-section{
+	font-family: Panton-Bold;
+	color: #56668d;
+	border-bottom: 1px solid;
+	text-align: center;
+}
+
+/*diagramm*/
+
+.col-custom-md{
+	flex: 0 0 20%;
+	max-width: 20%;
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+}
+.tabbottom{
+	border-bottom: 3px solid #56668d;
+
+}
+.customtabli{
+	margin-right: 10px;
+	margin-left: 10px;
+	border-top: 1px solid #56668d;
+	border-left: 1px solid #56668d;
+	border-right: 1px solid #56668d;
+}
