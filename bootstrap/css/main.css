@@ -1,0 +1,113 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lato|Raleway'); */
+
+@font-face{
+
+font-family: 'Lato';
+url('../font/Lato/Lato-Regular.ttf') format('truetype'),
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+/*body {
+	background-color: #f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+
+	margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	color: #f85c37;
+}
+
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+hr {
+	display: block;
+	border: 0px;
+	height: 1px;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0; 
+}
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+/*
+.navbar-expand-lg {
+	background: #2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-nav > .active > a {
+	background-color: fff7878;
+}
+
+.navbar-brand {
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+*/
+
+
+.view {
+    height: 300px;
+}
+
+.navbar-nav-service	{
+	text-align: right;
+}
+.tabs-cyan {
+	background-color: #1976D2;
+}
+
+.bgnews {
+	background-image: img/bgnews.jpg;
+	height: 332px;
+
+}
+
+.mask2 {
+ width:100%;
+ height:332px;
+ position:absolute;
+ overflow:hidden;
+ top:0;
+ left:0
+}
