@@ -1,0 +1,655 @@
+/* Font-weight */
+.font_weight_300{
+	font-weight: 300;
+}
+
+.font_weight_400{
+	font-weight: 400;
+}
+
+.font_weight_700{
+	font-weight: 700;
+}
+
+/* Text-align */
+.text-center {
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-left_imp{
+	text-align: left !important;
+}
+
+.text-right{
+	text-align: right;
+}
+
+ 
+.text-none{
+	text-align: none;
+}
+
+/* Display */
+.display_none{
+	display: none;
+}
+
+.display_none_imp{
+	display: none !important;
+}
+
+.display_block{
+	display: block;
+}
+
+/* Z-index */
+.z_index_5 {
+	z-index: 5;
+}
+
+.z_index_6 {
+	z-index: 6;
+}
+
+/* Font-size */
+.font-size_0_9em{
+	font-size: 0.9em;
+}
+
+.font-size_1_15em{
+	font-size: 1.15em;
+}
+
+.font-size_120per{
+	font-size: 120%;
+}
+
+
+
+/* Line-height */
+
+.line_height_140per {
+	line-height: 140%;
+}
+
+/* Paddings */
+
+.padding_2em{ padding: 2em;}
+
+/* Margins */
+.margin_top_-0_7em_imp{margin-top: -0.7em !important;}
+.margin_top_0 {	margin-top: 0;}
+.margin_top_1 {	margin-top: 1px;}
+.margin_top_10 {	margin-top: 10px;}
+.margin_top_20 {	margin-top: 20px;}
+.margin_top_30 {	margin-top: 30px;}
+.margin_top_30_imp {	margin-top: 30px !important;}
+.margin_top_50 {	margin-top: 50px;}
+.margin_top_50_imp {	margin-top: 50px !important;}
+.margin_top_0_5em {margin-top: 0.5em;}
+.margin_top_0_6em {margin-top: 0.6em;}
+.margin_top_0_7em {margin-top: 0.7em;}
+.margin_top_1em {margin-top: 1em;}
+.margin_top_1em_imp {margin-top: 1em !important;}
+.margin_top_1_5em {margin-top: 1.5em;}
+.margin_top_1_7em {margin-top: 1.7em;}
+.margin_top_2em {margin-top: 2em;}
+.margin_top_2em_imp {margin-top: 2em !important;}
+.margin_top_3em {margin-top: 3em;}
+.margin_top_3em_imp {margin-top: 3em !important;}
+.margin_top_3_5em {margin-top: 3.5em;}
+.margin_top_3_5em_imp {margin-top: 3.5em !important;}
+.margin_top_4em_imp {margin-top: 4em !important;}
+.margin_top_5em {margin-top: 5em;}
+.margin_top_5em_imp {margin-top: 5em !important;}
+.margin_top_6em_imp {margin-top: 6em !important;}
+.margin_top_13em_imp {margin-top: 13em !important;}
+.margin_top_14em_imp {margin-top: 14em !important;}
+
+.margin_bottom_0 {margin-bottom: 0;}
+.margin_bottom_10 {margin-bottom: 10px;}
+.margin_bottom_20 {margin-bottom: 20px;}
+.margin_bottom_20_imp {margin-bottom: 20px !important;}
+.margin_bottom_30 {margin-bottom: 30px;}
+.margin_bottom_30_imp {margin-bottom: 30px !important;}
+.margin_bottom_50_imp {margin-bottom: 50px !important;}
+.margin_bottom_0_imp {margin-bottom: 0 !important;}
+.margin_bottom_0_1em {margin-bottom: 0.1em;}
+.margin_bottom_0_4em {margin-bottom: 0.4em;}
+.margin_bottom_0_5em {margin-bottom: 0.5em;}
+.margin_bottom_0_8em {margin-bottom: 0.8em;}
+.margin_bottom_1em_imp {margin-bottom: 1em !important;}
+.margin_bottom_1_5em {margin-bottom: 1.5em;}
+.margin_bottom_2em {margin-bottom: 2em;}
+.margin_bottom_2em_imp {margin-bottom: 2em !important;}
+.margin_bottom_2_5em_imp {margin-bottom: 2.5em !important;}
+.margin_bottom_3em {margin-bottom: 3em;}
+.margin_bottom_3em_imp {margin-bottom: 3em !important;}
+.margin_bottom_3_5em {margin-bottom: 3.5em;}
+.margin_bottom_3_5em_imp {margin-bottom: 3.5em !important;}
+.margin_bottom_4em {margin-bottom: 4em;}
+.margin_bottom_4em_imp {margin-bottom: 4em !important;}
+.margin_bottom_5em {margin-bottom: 4em !important;}
+.margin_bottom_5em_imp {margin-bottom: 5em !important;}
+.margin_bottom_6em_imp {margin-bottom: 6em !important;}
+.margin_bottom_13em_imp {margin-bottom: 13em !important;}
+.margin_bottom_14em_imp {margin-bottom: 14em !important;}
+
+.margin_right_0 {margin-right: 0;}
+.margin_right_0_imp {margin-right: 0 !important;}
+.margin_right_6_imp {margin-right: 6px !important;}
+.margin_right_20_imp {margin-right: 20px !important;}
+.margin_right_25_imp {margin-right: 25px !important;}
+.margin_right_30_imp {margin-right: 30px !important;}
+.margin_right_60_imp {margin-right: 60px !important;}
+.margin_right_110_imp {margin-right: 110px !important;}
+.margin_right_auto_imp{margin-right: auto !important;}
+
+.margin_left_110_imp {margin-left: 110px !important;}
+.margin_left_auto_imp{margin-left: auto !important;}
+
+/* Padding */
+
+.padding_0{
+	padding: 0;
+}
+
+.padding_2em{
+	padding: 2em;
+}
+
+/* Width */
+.width_4per { width: 4%; }
+.width_9per { width: 9%; }
+.width_9_5per { width: 9.5%; }
+.width_12per { width: 12%; }
+.width_13per { width: 13%; }
+.width_20per { width: 20%; }
+.width_25per { width: 25%; }
+.width_50per { width: 50%; }
+.width_63per { width: 63%; }
+.width_66per { width: 66%; }
+.width_77per { width: 77%; }
+.width_78_3per { width: 78.3%; }
+.width_80per { width: 80%; }
+.width_83per { width: 83%; }
+.width_85_5per { width: 85.5%; }
+.width_87per { width: 87%; }
+.width_87_3per { width: 87.3%; }
+.width_90per { width: 90%; }
+.width_90_3per { width: 90.3%; }
+.width_90_8per { width: 90.8%; }
+.width_91per { width: 91%; }
+.width_92_3per { width: 92.3%; }
+.width_93per { width: 93%; }
+.width_93_3per { width: 93.3%; }
+.width_94per { width: 94%; }
+.width_95per { width: 95%; }
+.width_95_3per { width: 95.3%; }
+.width_96per { width: 96%; }
+.width_96_8per { width: 96.8%; }
+.width_97_5per { width: 97.5%; }
+.width_98per { width: 98%; }
+.width_99per { width: 99%; }
+.width_100per { width: 100%; }
+
+.width_100 { width: 100px; }
+.width_125 { width: 125px; }
+.width_150 { width: 150px; }
+.width_160 { width: 160px; }
+.width_550 { width: 550px; }
+
+/* Height */
+
+.height_30{ height: 30px; }
+
+.height_70{ height: 70px; }
+
+.height_125{ height: 125px; }
+
+.height_150{ height: 150px; }
+
+.height_180{ height: 180px; }
+
+.height_218{ height: 218px; }
+
+.height_220{ height: 220px; }
+
+.height_230{ height: 230px; }
+
+.height_292{ height: 292px; }
+
+.height_295{ height: 295px; }
+
+.height_300{ height: 300px; }
+
+.height_310{ height: 310px; }
+
+.height_315{ height: 315px; }
+
+.height_316{ height: 316px; }
+
+.height_320{ height: 320px; }
+
+.height_330{ height: 330px; }
+
+.height_350{ height: 350px; }
+
+.height_390{ height: 390px; }
+
+.height_400{ height: 400px; }
+
+.height_402{ height: 402px; }
+
+.height_500{ height: 500px; }
+
+.height_647{ height: 647px; }
+
+.height_670{ height: 670px; }
+
+.height_750{ height: 750px; }
+
+.height_770{ height: 770px; }
+
+.height_850{ height: 850px; }
+
+.max_height_670 { max-height:670px; }
+
+/* Custom colors */
+.sc_infobox_custom_style_1 {
+	color:#191919;
+}
+
+.sc_infobox_custom_style_2 {
+	color:#222222;
+}
+
+.color_fff{
+	color: #fff;
+}
+
+.border-top-shadow{
+	border-top-style:shadow;
+}
+
+/* Opacity */
+.sc_custom_opacity_st1 {
+	opacity:0.9;
+}
+
+/* Custom backgrounds */
+
+.sidemenu_button_custom_bg {
+	background-image:url(../images/logo-icon.png)
+}
+
+.facebook_custom_bg {
+	background-image: url(../images/socials/facebook.png);
+}
+
+.pinterest_custom_bg {
+	background-image: url(../images/socials/pinterest.png);
+}
+
+.twitter_custom_bg {
+	background-image: url(../images/socials/twitter.png);
+}
+
+.gplus_custom_bg {
+	background-image: url(../images/socials/gplus.png);
+}
+
+.dribbble_custom_bg {
+	background-image: url(../images/socials/dribbble.png);
+}
+
+.youtube_custom_bg {
+	background-image: url(../images/socials/youtube.png);
+}
+
+.rss_custom_bg {
+	background-image: url(../images/socials/rss.png);
+}
+
+.rs_custom_bg1 {
+	background-color:#E9E9E9;
+}
+
+/* Parallax custom backgrounds */
+
+.sc_parallax_bg_custom1 {
+	background-image:url(../images/politics-parallax-11.jpg); 
+	background-position:50% 50%;
+}
+
+.sc_parallax_bg_custom2 {
+	background-image:url(../images/politics-parallax-21.jpg); background-position:50% 50%;
+}
+
+.sc_parallax_bg_custom3 {
+	background-color:rgba(51,51,51,0.6);
+}
+
+.sc_parallax_bg_custom4 {
+	background-image:url(../images/politics-parallax-41.jpg); background-position:50% 50%;
+}
+
+.sc_parallax_bg_custom5 {
+	background-image:url(../images/politics-parallax-31.jpg); background-position:50% 50%;
+}
+
+.sc_parallax_bg_custom6 {
+	background-image:url(../images/politics-slide-21.jpg); background-position:50% 50%;
+}
+
+.sc_parallax_bg_custom7 {
+	background-color:rgba(0,0,0,0.65);
+}
+
+.sc_parallax_bg_custom8 {
+	background-image:url(../images/politics-parallax-51.jpg); background-position:50% 50%;
+}
+
+.sc_parallax_bg_custom9 {
+	background-color:rgba(0,0,0,0.6);
+}
+
+.sc_parallax_bg_custom10 {
+	background-image:url(../images/politics-parallax-71.jpg); background-position:50% 50%;
+}
+
+.sc_parallax_bg_custom11 {
+	background-color:rgba(0,0,0,0.7);
+}
+
+.sc_parallax_bg_custom12 {
+	background-image:url(../images/politics-parallax-61.jpg); background-position:50% 50%;
+}
+
+.sc_parallax_bg_custom13 {
+	background-image:url(../images/politics-parallax-81.jpg); background-position:50% 0%;
+}
+
+.sc_parallax_bg_custom14 {
+	background-image:url(../images/politics-parallax-81.jpg); background-position:50% 50%;
+}
+
+.sc_parallax_bg_custom15 {
+	background-color:rgba(221,221,221,0.1);
+}
+
+.sc_parallax_bg_custom16 {
+	background-image:url(../images/politics-parallax-5-small1.jpg); background-position:50% 50%;
+}
+
+.sc_parallax_bg_custom17 {
+	background-image:url(../images/politics-parallax-6-small1.jpg); background-position:50% 50%;
+}
+
+.sc_parallax_bg_custom18 {
+	background-color:rgba(0,0,0,0.5);
+}
+
+
+
+.sc_parallax_btn_custom1{
+	background-color:#e33c1c !important; 
+	border-color:#e33c1c !important;
+}
+
+.sc_bg_custom_fff{
+	background-color:#ffffff;
+}
+
+.widget_socials .logo_socials.socPage {
+	margin-top: 2em;
+}
+
+.widget_socials .logo_descr {
+	margin-top: 2em;
+}
+
+/* Swiper Custom Backgrounds */
+
+.sc_swiper1_bg_custom1 {
+	background-image:url(../images/posts-slider-61-775x310.jpg);
+}
+
+.sc_swiper1_bg_custom2 {
+	background-image:url(../images/posts-slider-51-775x310.jpg);
+}
+
+.sc_swiper1_bg_custom3 {
+	background-image:url(../images/posts-slider-31-775x310.jpg);
+}
+
+.sc_swiper1_bg_custom4 {
+	background-image:url(../images/posts-slider-41-775x310.jpg);
+}
+
+.sc_swiper1_bg_custom5 {
+	background-image:url(../images/posts-slider-21-775x310.jpg);
+}
+
+.sc_swiper1_bg_custom6 {
+	background-image:url(../images/posts-slider-11-775x310.jpg);
+}
+
+
+.sc_swiper2_bg_custom1 {
+	background-image:url(../images/posts-slider-11-550x310.jpg);
+}
+
+.sc_swiper2_bg_custom2 {
+	background-image:url(../images/posts-slider-21-550x310.jpg);
+}
+
+.sc_swiper2_bg_custom3 {
+	background-image:url(../images/posts-slider-41-550x310.jpg);
+}
+
+.sc_swiper2_bg_custom4 {
+	background-image:url(../images/posts-slider-31-550x310.jpg);
+}
+
+.sc_swiper2_bg_custom5 {
+	background-image:url(../images/posts-slider-51-550x310.jpg);
+}
+
+.sc_swiper2_bg_custom6 {
+	background-image:url(../images/posts-slider-61-550x310.jpg);
+}
+
+
+.sc_swiper3_bg_custom1 {
+	background-image:url(../images/posts-slider-21.jpg);
+}
+
+.sc_swiper3_bg_custom2 {
+	background-image:url(../images/posts-slider-31.jpg);
+}
+
+.sc_swiper3_bg_custom3 {
+	background-image:url(../images/posts-slider-11.jpg);
+}
+
+.sc_swiper3_bg_custom4 {
+	background-image:url(../images/posts-slider-51.jpg);
+}
+
+.sc_swiper3_bg_custom5 {
+	background-image:url(../images/posts-slider-41.jpg);
+}
+
+.sc_swiper3_bg_custom6 {
+	background-image:url(../images/posts-slider-61.jpg);
+}
+
+
+.sc_swiper5_bg_custom1 {
+	background-image:url(../images/portfolio-031-714x402.jpg);
+}
+
+.sc_swiper5_bg_custom2 {
+	background-image:url(../images/post-071-714x402.jpg);
+}
+
+.sc_swiper5_bg_custom3 {
+	background-image:url(../images/portfolio-141-714x402.jpg);
+}
+
+.sc_swiper5_bg_custom4 {
+	background-image:url(../images/post-091-714x402.jpg);
+}
+
+.sc_swiper5_bg_custom5 {
+	background-image:url(../images/portfolio-171-714x402.jpg);
+}
+
+
+.sc_swiper6_bg_custom1 {
+	background-image:url(../images/portfolio-021-714x402.jpg);
+}
+
+.sc_swiper6_bg_custom2 {
+	background-image:url(../images/portfolio-011-714x402.jpg);
+}
+
+.sc_swiper6_bg_custom3 {
+	background-image:url(../images/post-081-714x402.jpg);
+}
+
+.sc_swiper7_bg_custom1 {
+	background-image:url(../images/portfolio-181-714x402.jpg);
+}
+
+
+.sc_swiper8_bg_custom1 {
+	background-image:url(../images/post-011-519x390.jpg);
+}
+
+.sc_swiper8_bg_custom2 {
+	background-image:url(../images/post-021-584x390.jpg);
+}
+
+.sc_swiper8_bg_custom3 {
+	background-image:url(../images/post-031-582x390.jpg);
+}
+
+.sc_swiper9_bg_custom1 {
+	background-image:url(../images/portfolio-041-714x402.jpg);
+}
+
+.sc_swiper9_bg_custom2 {
+	background-image:url(../images/post-061-714x402.jpg);
+}
+
+
+
+.sc_swiper10_bg_custom1 {
+	background-image:url(../images/post-081-1150x647.jpg);
+}
+
+.sc_swiper10_bg_custom2 {
+	background-image:url(../images/portfolio-171-1150x647.jpg);
+}
+
+.sc_swiper10_bg_custom3 {
+	background-image:url(../images/portfolio-031-1150x647.jpg);
+}
+
+.sc_swiper10_bg_custom4 {
+	background-image:url(../images/portfolio-181-1150x647.jpg);
+}
+
+.sc_swiper10_bg_custom5 {
+	background-image:url(../images/post-091-1150x647.jpg);
+}
+
+
+
+.sc_swiper_flex_bg_custom1 {
+	background-image:url(../images/post-011.jpg);
+}
+
+.sc_swiper_flex_bg_custom2 {
+	background-image:url(../images/post-021.jpg);
+}
+
+.sc_swiper_flex_bg_custom3 {
+	background-image:url(../images/post-031.jpg);
+}
+
+.sc_parallax.light .sc_parallax_content {
+    text-shadow: 1px 1px 0 #fff !important;
+}
+
+/* Standard Gallery */
+#gallery-1 {
+	margin: auto;
+}
+
+ #gallery-1 .gallery-item {
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	/* width: 16%; */
+} 
+
+#gallery-1 img {
+	border: 2px solid #cfcfcf;
+}
+
+#gallery-1 .gallery-caption {
+	margin-left: 0;
+}
+
+
+/* Skills section backgrounds */
+.sc_skills_bg_custom1 {background-color:rgba(15,111,169,1);}
+.sc_skills_bg_custom2 {background-color:rgba(15,111,169,0.9);}
+.sc_skills_bg_custom3 {background-color:rgba(15,111,169,0.8);}
+.sc_skills_bg_custom4 {background-color:rgba(15,111,169,0.7);}
+.sc_skills_bg_custom5 {background-color:rgba(15,111,169,0.6);}
+.sc_skills_bg_custom6 {background-color:#0f6fa9; border-color:#0f6fa9;}
+.sc_skills_bg_custom7 {background-color:#39758e; border-color:#39758e}
+
+/* Button shortcode */
+.squareButton.fullSize.margin_bottom_20 {
+	margin-bottom: 20px;
+}
+
+/* Post Standart Fullwidth */
+
+.sc_post_fw_custom_bg1 {
+	background-image:url(../images/portfolio-061.jpg);
+}
+
+
+/* Section/block shortcode */
+
+.sc_section-block_custom_style1{
+	border:1px dashed #ddd; 
+	padding: 20px; 
+	background-color:#fafafa; 
+	font-weight:400;
+}
+
+.sc_section-block_custom_style2{
+	border:1px dotted #d0dfca; 
+	padding: 20px; 
+	background-color:#f0ffda; 
+	color: #61763f; 
+	font-weight:400; 
+	font-style: italic;
+}
+
+/* Hovers */
+
+.ih-item.square.effect1.bottom_to_top .info p {
+    padding-top: 0;
+}
