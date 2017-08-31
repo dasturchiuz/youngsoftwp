@@ -873,8 +873,28 @@ header ul .specialView .dropdown-menu{right:-15px;
 	padding: 50px 0 20px;
 	position: relative;
 	min-height: 400px;
-	background: url(../bootstrap/img/bg.jpg);
-	background-size: 14%;
+	background: url(../bootstrap/img/arab-bg.png);
+	background-size: 10%;
+	-webkit-box-shadow: inset 0 0 13px 5px rgba(0,0,0,.15);
+	box-shadow: inset 0 0 13px 5px rgba(0,0,0,.15);
+	overflow: hidden;
+}
+.section-naqsh1 {
+	padding: 50px 0 20px;
+	position: relative;
+	min-height: 400px;
+	background: url(../bootstrap/img/main_bg.png);
+	background-size: 7%;
+	-webkit-box-shadow: inset 0 0 13px 5px rgba(0,0,0,.15);
+	box-shadow: inset 0 0 13px 5px rgba(0,0,0,.15);
+	overflow: hidden;
+}
+.section-naqsh2 {
+	padding: 50px 0 20px;
+	position: relative;
+	min-height: 400px;
+	background: url(../bootstrap/img/back.jpg);
+	background-size: 25%;
 	-webkit-box-shadow: inset 0 0 13px 5px rgba(0,0,0,.15);
 	box-shadow: inset 0 0 13px 5px rgba(0,0,0,.15);
 	overflow: hidden;
