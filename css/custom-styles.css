@@ -663,7 +663,7 @@
 	overflow-x: hidden;
 }
 
-a{color:#6f78ce;/* -webkit-transition:all .3s ease; *//* transition:all .3s ease */}
+a{color:#424376;/* -webkit-transition:all .3s ease; *//* transition:all .3s ease */}
 
 a:focus,a:hover{text-decoration:none;
 	text-decoration-outline:none}
@@ -674,7 +674,7 @@ a:focus,a:hover{text-decoration:none;
 .row.no-gutter>[class*=col-],.row.no-gutter>[class^=col-]{padding-right:0;
 	padding-left:0}
 
-header{background:#6f78ce}
+header{background:#424376}
 
 header ul.left-col{-webkit-box-pack:start;
 	-webkit-justify-content:flex-start;
@@ -730,7 +730,7 @@ header ul>li>a>.fa{font-size:16px;
 header ul>li>a>.fa.fa-mobile{font-size:20px}
 
 header ul>li.lang{margin-right:0;
-	background:#9ba3e9}
+	background:#56668d}
 
 header ul>li.lang .language_select{cursor:pointer;
 	position:relative;
@@ -767,7 +767,7 @@ header ul>li.lang .language_select img{vertical-align:top;
 header ul .specialView{position:relative;
 	padding:0 15px;
 	z-index:10;
-	background:#9ba3e9}
+	background:#56668d}
 
 header ul .specialView div.dropdown a.fa{font-size:14px;
 	color:#fff}
@@ -926,15 +926,15 @@ header ul .specialView .dropdown-menu{right:-15px;
 	min-height: 1px;
 }
 .tabbottom{
-	border-bottom: 3px solid #56668d;
+	border-bottom: 3px solid #424376;
 
 }
 .customtabli{
 	margin-right: 10px;
 	margin-left: 10px;
-	border-top: 1px solid #56668d;
-	border-left: 1px solid #56668d;
-	border-right: 1px solid #56668d;
+	border-top: 1px solid #424376;
+	border-left: 1px solid #424376;
+	border-right: 1px solid #424376;
 }
 
 .text-p{
@@ -1022,7 +1022,7 @@ header ul .specialView .dropdown-menu{right:-15px;
 
 .textForLastBlock a{
 	font-weight: 700;
-	color: #56668d;
+	color: #424376;
 }
 .discriptionLastBlock p{
 	margin-bottom: 0px;
@@ -1051,13 +1051,13 @@ header ul .specialView .dropdown-menu{right:-15px;
 }
 
 .salomw::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 0 6px rgba(66,67,118,0.5);
 	border-radius: 10px;
 }
 
 .salomw::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 0 6px rgba(66,67,118,0.5);
 }
 
 body::-webkit-scrollbar {
@@ -1065,7 +1065,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 0 6px rgba(66,67,118,0.3);
 	border-radius: 10px;
 }
 
@@ -1345,3 +1345,6 @@ body::-webkit-scrollbar-thumb {
 	right: 20px;
 }
 /* Bluq-bluq */
+footer > h5{
+    color: #ffffff !important;
+}

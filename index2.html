@@ -460,7 +460,7 @@
                     <div class="col-md-8">
 
                         <div class="timeline-container timeline-theme-1">
-                            <div class="timeline bpxichiki overlay hm-white-slight z-depth-1-half js-timeline" id="foo">
+                            <div class="timeline js-timeline" id="foo" style="margin: 15px 0px 15px;">
                                 <div data-time="2017 yil">
                                     <div class="row">
                                         <div class="col-md-12">
@@ -660,21 +660,18 @@
 
 
                     <div class="col-md-4">
-                        <div class="bpxichiki overlay hm-white-slight z-depth-1-half">
-sadasdsada
-                            ss
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+                        <div class="bpxichiki overlay hm-white-slight z-depth-1-half"><div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>      </div>
                     </div>
 
 
@@ -882,7 +879,7 @@ sadasdsada
         <div class="row mt-3">
 
             <!--First column-->
-            <div class="col-md-3 col-lg-4 col-xl-3 mb-r dark-grey-text">
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-r">
                 <h6 class="title font-bold"><strong>Company name</strong></h6>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
@@ -891,29 +888,29 @@ sadasdsada
             <!--/.First column-->
 
             <!--Second column-->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-r dark-grey-text">
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-r ">
                 <h6 class="title font-bold"><strong>Products</strong></h6>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p><a href="#!" class="dark-grey-text">MDBootstrap</a></p>
-                <p><a href="#!" class="dark-grey-text">MDWordPress</a></p>
-                <p><a href="#!" class="dark-grey-text">BrandFlow</a></p>
-                <p><a href="#!" class="dark-grey-text">Bootstrap Angular</a></p>
+                <p><a href="#!" class="">MDBootstrap</a></p>
+                <p><a href="#!" class="">MDWordPress</a></p>
+                <p><a href="#!" class="">BrandFlow</a></p>
+                <p><a href="#!" class="">Bootstrap Angular</a></p>
             </div>
             <!--/.Second column-->
 
             <!--Third column-->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-r dark-grey-text">
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-r ">
                 <h6 class="title font-bold"><strong>Useful links</strong></h6>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                <p><a href="#!" class="dark-grey-text">Your Account</a></p>
-                <p><a href="#!" class="dark-grey-text">Become an Affiliate</a></p>
-                <p><a href="#!" class="dark-grey-text">Shipping Rates</a></p>
-                <p><a href="#!" class="dark-grey-text">Help</a></p>
+                <p><a href="#!" class="">Your Account</a></p>
+                <p><a href="#!" class="">Become an Affiliate</a></p>
+                <p><a href="#!" class="">Shipping Rates</a></p>
+                <p><a href="#!" class="">Help</a></p>
             </div>
             <!--/.Third column-->
 
             <!--Fourth column-->
-            <div class="col-md-4 col-lg-3 col-xl-3 dark-grey-text">
+            <div class="col-md-4 col-lg-3 col-xl-3 ">
                 <h6 class="title font-bold"><strong>Manzil</strong></h6>
                 <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p><i class="fa fa-home mr-3"></i>120100, Guliston shahri, Islom Karimov ko`chasi 60 - uy
@@ -966,7 +963,7 @@ sadasdsada
 
 <script src="jquery-plugin-circliful-master/js/jquery.circliful.min.js"></script>
 <script type="text/javascript">
-    $('<style>.timeline-item { width:'+(document.getElementById('foo').offsetWidth-2)+'px;  }</style>').appendTo('body');
+    $('<style>.timeline-item { width:'+(document.getElementById('foo').offsetWidth)+'px;  }</style>').appendTo('body');
     $( document ).ready(function() {
         $('#linkdilsh').mouseover(function(e) {
             $('#linkdilsh1').mouseover();
@@ -983,8 +980,8 @@ sadasdsada
         $("#your-circle1").circliful({
             animationStep: 6,
             foregroundBorderWidth: 10,
-            backgroundBorderWidth: 20,
-
+            backgroundBorderWidth: 11,
+            foregroundColor:'#4F838D',
             noPercentageSign:true,
             percent: 75
 
