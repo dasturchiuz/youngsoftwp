@@ -29,6 +29,9 @@
     <link href="css/shortcodes.css" rel="stylesheet">
     <link href="css/slider-style.css" rel="stylesheet">
     <link href="css/custom-styles.css" rel="stylesheet">
+    <link href="owl/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="owl/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="css/custom-styles.css" rel="stylesheet">
 
     <link href="bootstrap/css/main.css" rel="stylesheet">
 
@@ -127,7 +130,7 @@
         <div class="container">
             <div class="row newbox">
                 <div class="col-md-12">
-                    <h2 class="h2new">Yangiliklar</h2>
+                    <h2 class="h2new">Yangiliklar </h2>
                 </div>
                 <div class="col-md-8 ">
                 <div class="" style="padding: 15px;">
@@ -767,7 +770,7 @@
                     <div class="card">
 
                         <div class="card-body">
-                            <canvas id="myChart" ></canvas>
+                            <canvas id="myChart2" ></canvas>
                         </div>
                     </div>
                     <!--/.Panel-->
@@ -778,7 +781,7 @@
                     <div class="card">
 
                         <div class="card-body">
-                            <canvas id="myChart" ></canvas>
+                            <canvas id="myChart1" ></canvas>
                         </div>
                     </div>
                     <!--/.Panel-->
@@ -1005,7 +1008,55 @@
             </div>
         </div>
     </section>
+    <section class="section-naqsh2">
+        <div class="container">
+            <div class="row">
 
+                <!-- Set up your HTML -->
+                <div class="owl-carousel  owl-theme">
+                    <div>
+                        <div class="card owll">salom salom</div>
+                    </div>
+                   <div>
+                        <div class="card owll">salom salom</div>
+                    </div>
+                   <div>
+                        <div class="card owll">salom salom</div>
+                    </div>
+                   <div>
+                        <div class="card owll">salom salom</div>
+                    </div>
+                   <div>
+                        <div class="card owll">salom salom</div>
+                    </div>
+                   <div>
+                        <div class="card owll">salom salom</div>
+                    </div>
+                   <div>
+                        <div class="card owll">salom salom</div>
+                    </div>
+                   <div>
+                        <div class="card owll">salom salom</div>
+                    </div>
+                   <div>
+                        <div class="card owll">salom salom</div>
+                    </div>
+                   <div>
+                        <div class="card owll">salom salom</div>
+                    </div>
+                   <div>
+                        <div class="card owll">salom salom</div>
+                    </div>
+                   <div>
+                        <div class="card owll">salom salom</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Section: Team v.4-->
 
     <div id="container-floating" class="hidden-xs">
         <a href="http://sirdaryo.uz/#">
@@ -1051,7 +1102,7 @@
 
                 <!--Grid column-->
                 <div class="col-12 col-md-7 text-left mb-4 mb-md-0">
-                    <h6 class="mb-0 white-text text-center text-md-left"><strong>1 RUB = 71.18 so'm   1 USD = 4210.35 so'm   1 EUR = 4210.35 so'm</strong></h6>
+                    <h6 class="mb-0 white-text text-center text-md-left"><strong>1 RUB = 71.18 so'm   1 USD = 4210.35 so'm   1 EUR = 4210.35 so'm</strong> </h6>
                 </div>
                 <!--Grid column-->
 
@@ -1106,8 +1157,7 @@
 
             <!--Fourth column-->
             <div class="col-md-4 col-lg-3 col-xl-3 ">
-                <h6 class="title font-bold"><strong>Manzil</strong></h6>
-                <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+
                 <p><i class="fa fa-home mr-3"></i>120100, Guliston shahri, Islom Karimov ko`chasi 60 - uy
                     </p>
                 <p><i class="fa fa-envelope mr-3"></i> info@sirdaryo.uz</p>
@@ -1153,20 +1203,17 @@
 <script type="text/javascript" src="js/slider_init.js"></script>
 <script type="text/javascript" src="js/chart.js"></script>
 <script type="text/javascript" src="js/timeline.min.js"></script>
+<script type="text/javascript" src="owl/owl.carousel.min.js"></script>
 <!-- SLIDERt 2 -->
 <script type="text/javascript" src="js/royalslider/jquery.royalslider.min.js"></script>
 <!-- SLIDERt 3 -->
 
 
-<script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="/js/jquery/jquery.maphilight.js"></script>
 
 <script src="jquery-plugin-circliful-master/js/jquery.circliful.min.js"></script>
 
 <script>
-    var randomScalingFactor = function() {
-        return Math.round(Math.random() * 100);
-    };
+
 
     var config = {
         type: 'pie',
@@ -1201,7 +1248,101 @@
             responsive: true,
             title: {
                 display: true,
-                text: 'Custom Chart Title'
+                fontFamily:'Panton-Bold',
+                fontSize:24,
+                text: 'MY.GOV.UZ ' +
+                ' murojaatlar statistikasi'
+            },legend: {
+                display: false,
+                labels: {
+                    fontColor: 'rgb(255, 99, 132)'
+                }
+            }
+        }
+    };
+
+
+    //ishonch telefoni
+    var config1 = {
+        type: 'pie',
+        data: {
+            datasets: [{
+                data: [
+                    25,
+                    35,
+                    35,
+                    55,
+                    88,
+                ],
+                backgroundColor: [
+                    '#45526E',
+                    '#00C851',
+                    '#33b5e5',
+                    '#e91e63',
+                    '#3f51b5',
+
+                ],
+                label: 'Dataset 1'
+            }],
+            labels: [
+                "Red",
+                "Orange",
+                "Yellow",
+                "Green",
+                "Blue"
+            ]
+        },
+        options: {
+            responsive: true,
+            title: {
+                display: true,
+                fontFamily:'Panton-Bold',
+                fontSize:24,
+                text: 'Ishonch telefoniga berilgan baholar'
+            },legend: {
+                display: false,
+                labels: {
+                    fontColor: 'rgb(255, 99, 132)'
+                }
+            }
+        }
+    };//ishonch telefoni
+    var config2 = {
+        type: 'pie',
+        data: {
+            datasets: [{
+                data: [
+                    25,
+                    35,
+                    35,
+                    55,
+                    88,
+                ],
+                backgroundColor: [
+                    '#45526E',
+                    '#00C851',
+                    '#33b5e5',
+                    '#e91e63',
+                    '#3f51b5',
+
+                ],
+                label: 'Dataset 1'
+            }],
+            labels: [
+                "Red",
+                "Orange",
+                "Yellow",
+                "Green",
+                "Blue"
+            ]
+        },
+        options: {
+            responsive: true,
+            title: {
+                display: true,
+                fontFamily:'Panton-Bold',
+                fontSize:24,
+                text: 'Ishonch telefoniga berilgan baholar'
             },legend: {
                 display: false,
                 labels: {
@@ -1212,10 +1353,26 @@
     };
 
     window.onload = function() {
+        var ctx1 = document.getElementById("myChart1").getContext("2d");
+        window.myPie = new Chart(ctx1, config1);
         var ctx = document.getElementById("myChart").getContext("2d");
         window.myPie = new Chart(ctx, config);
+        var ctx2 = document.getElementById("myChart2").getContext("2d");
+        window.myPie = new Chart(ctx2, config2);
     };
-
+    //owl karusilniki
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            navSpeed: 350,
+            animateIn: 'fadeIn',
+            animateOut: 'fadeOut',
+            items: 3,
+            navText:['<button type="button" class="btn btn-indigo btn-sm"><i class="fa fa fa-chevron-left"></i> </button>','<button type="button" class="btn btn-indigo  btn-sm"><i class="fa fa fa-chevron-right"></i> </button>'],
+            lazyLoad: true,
+            nav: true,
+            dots: true,
+        });
+    });
 </script>
 <script type="text/javascript">
     $('<style>.timeline-item { width:'+(document.getElementById('foo').offsetWidth)+'px;  }</style>').appendTo('body');

@@ -1416,3 +1416,11 @@ footer > h5{
 .btn-flat, .btn-floating {
 	margin: 5px 11px 10px !important;}
 
+.owl-item{
+	padding: 5px;
+}
+.owll{
+	height: 115px;
+	margin: 0px 15px 0px;
+	padding: 8px;
+}
