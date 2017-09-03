@@ -6696,7 +6696,8 @@ a.text-dark:focus,a.text-dark:hover {
  background-color:#3e2723!important
 }
 .blue-grey.lighten-5 {
- background-color:#424376!important
+ background-color:#424376!important;
+
 }
 .blue-grey.lighten-4 {
  background-color:#cfd8dc!important
@@ -13412,7 +13413,8 @@ footer.page-footer {
  margin-top:20px;
  padding-top:20px;
  background-color:#4285F4;
- color:#fff
+ color:#fff;
+ background-image: url("../img/footer.jpg")
 }
 footer.page-footer .container-fluid {
  width:auto
@@ -23368,3 +23370,4 @@ img[alt=amex] {
 .dwqa-container .rounded {
  margin-bottom:2rem
 }
+
