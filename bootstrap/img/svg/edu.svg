@@ -1,1 +1,15 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.17 20.23"><defs><style>.cls-1,.cls-2{fill:none;stroke:#fff;}.cls-1{stroke-miterlimit:10;}.cls-2{stroke-linecap:round;stroke-linejoin:round;}</style></defs><title>edu</title><polygon class="cls-1" points="1.29 6.34 15.16 0.54 28.88 6.34 15.09 12.13 1.29 6.34"/><path class="cls-1" d="M8.19,15.42v6s0,3.82,7.59,3.82c8.22,0,8.36-3.23,8.36-3.23V15.42" transform="translate(-0.69 -6.47)"/><ellipse class="cls-1" cx="15.87" cy="12.81" rx="1.34" ry="0.9" transform="translate(-1.21 -5.79) rotate(-2.4)"/><polyline class="cls-2" points="16.4 6.68 26.18 7.48 26.18 17.13 24.48 19.73 27.78 19.73 26.18 17.13"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.17 20.23">
+<defs>
+<style>
+.cls-1,.cls-2{fill:none;stroke:#fff;}
+.cls-1{stroke-miterlimit:10;}
+.cls-2{stroke-linecap:round;stroke-linejoin:round;}
+
+</style>
+</defs>
+<title>edu</title>
+<polygon  class="cls-1" points="1.29 6.34 15.16 0.54 28.88 6.34 15.09 12.13 1.29 6.34"/>
+<path class="cls-1" d="M8.19,15.42v6s0,3.82,7.59,3.82c8.22,0,8.36-3.23,8.36-3.23V15.42" transform="translate(-0.69 -6.47)"/>
+<ellipse class="cls-1" cx="15.87" cy="12.81" rx="1.34" ry="0.9" transform="translate(-1.21 -5.79) rotate(-2.4)"/>
+<polyline class="cls-2" points="16.4 6.68 26.18 7.48 26.18 17.13 24.48 19.73 27.78 19.73 26.18 17.13"/>
+</svg>
