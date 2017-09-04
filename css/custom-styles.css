@@ -1430,3 +1430,6 @@ footer > h5{
 	font-family: Panton-Regular;
 }
 
+.svguz a:hover {
+	stroke: #000;
+}
