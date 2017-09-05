@@ -1461,13 +1461,156 @@ footer > h5{
 }
 .edusvg {
 	weight: 64px; height: 64px; margin: 15px 0 15px;
-	background-color: black;
+	background-color: #424376;
 	-webkit-mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
 	mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
 }
 .edusvg:hover {
 	weight: 64px; height: 64px; margin: 15px 0 15px;
-	background-color: black;
+	background-color: #424376;
 	-webkit-mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
 	mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
 }
+
+
+
+.active .edusvg {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: white;
+	-webkit-mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+}
+
+.active .edusvg:hover {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: white;
+	-webkit-mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+}
+.edusvg {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: #424376;
+	-webkit-mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+}
+.edusvg:hover {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: #424376;
+	-webkit-mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+}
+
+
+
+.active .edusvg {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: white;
+	-webkit-mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+}
+
+.active .edusvg:hover {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: white;
+	-webkit-mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+}
+.edusvg {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: #424376;
+	-webkit-mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+}
+.edusvg:hover {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: #424376;
+	-webkit-mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/edu.svg) no-repeat center;
+}
+
+
+
+.active .normasvg {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: white;
+	-webkit-mask: url(../bootstrap/img/svg/norma.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/norma.svg) no-repeat center;
+}
+
+.active .normasvg:hover {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: white;
+	-webkit-mask: url(../bootstrap/img/svg/norma.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/norma.svg) no-repeat center;
+}
+.normasvg {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: #424376;
+	-webkit-mask: url(../bootstrap/img/svg/norma.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/norma.svg) no-repeat center;
+}
+.normasvg:hover {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: #424376;
+	-webkit-mask: url(../bootstrap/img/svg/norma.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/norma.svg) no-repeat center;
+}
+
+
+
+.active .govermentsvg {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: white;
+	-webkit-mask: url(../bootstrap/img/svg/goverment.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/goverment.svg) no-repeat center;
+}
+
+.active .govermentsvg:hover {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: white;
+	-webkit-mask: url(../bootstrap/img/svg/goverment.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/goverment.svg) no-repeat center;
+}
+.govermentsvg {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: #424376;
+	-webkit-mask: url(../bootstrap/img/svg/goverment.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/goverment.svg) no-repeat center;
+}
+.govermentsvg:hover {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: #424376;
+	-webkit-mask: url(../bootstrap/img/svg/goverment.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/goverment.svg) no-repeat center;
+}
+
+
+.active .intersvg {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: white;
+	-webkit-mask: url(../bootstrap/img/svg/inter.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/inter.svg) no-repeat center;
+}
+
+.active .intersvg:hover {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: white;
+	-webkit-mask: url(../bootstrap/img/svg/inter.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/inter.svg) no-repeat center;
+}
+.intersvg {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: #424376;
+	-webkit-mask: url(../bootstrap/img/svg/inter.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/inter.svg) no-repeat center;
+}
+.intersvg:hover {
+	weight: 64px; height: 64px; margin: 15px 0 15px;
+	background-color: #424376;
+	-webkit-mask: url(../bootstrap/img/svg/inter.svg) no-repeat center;
+	mask: url(../bootstrap/img/svg/inter.svg) no-repeat center;
+}
+
+
+
+
