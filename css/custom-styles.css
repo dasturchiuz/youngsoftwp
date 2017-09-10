@@ -1789,3 +1789,14 @@ code {
 	background-color: #f9f2f4;
 	border-radius: 4px;
 }
+
+*, *:before, *:after {
+	box-sizing: border-box;
+
+}
+
+.united-kingdom {
+	background-image: url(../img/sirdaryomap3.jpg);
+	background-repeat: no-repeat;
+
+}
