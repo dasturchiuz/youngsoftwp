@@ -1704,3 +1704,88 @@ footer > h5{
 	border-left: 0px solid transparent;
 	border-right: 37px solid transparent;
 }
+
+footer.page-footer .footer-copyright {
+	overflow: hidden;
+	min-height: 80px !important;
+	padding: 20px 0px 0px;
+	line-height: 20px !important;
+	color: rgba(255,255,255,.6);
+	background-color: rgba(0,0,0,.2);
+	text-align: left !important;
+	font-size: .9rem;
+}
+
+footer.page-footer .col-md-4 {
+	margin-left: 0px !important;
+}
+
+ .dropdown > a{
+	font-family: Panton-Regular !important;
+	color: #fff !important;
+	padding-bottom: 12px !important;
+}
+
+ .dropdown > a > .dropdown-item{
+	font-family: Panton-Regular !important;
+	color: #424376 !important;
+	padding-bottom: 12px !important;
+}
+
+.appearance {
+	margin-bottom: 10px;
+	clear: both;
+	display: table;
+	width: 100%;
+}
+
+.specialTitle {
+	border-bottom: 1px solid #ccc;
+	font-size: 18px;
+}
+
+.squareAppearances {
+	float: left;
+	margin-right: 5px;
+}
+
+.squareBox.spcNormal {
+	background: #00a2e0;
+	border-color: #034e6b;
+}
+
+.squareBox {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	font-size: 27px;
+	font-weight: bolder;
+	cursor: pointer;
+	background: #828282;
+	border: 2px solid #353535;
+	color: #fff;
+}
+
+.squareBox.spcWhiteAndBlack {
+	background: #828282;
+	border-color: #353535;
+}
+
+.squareBox.spcDark {
+	background: #3e3e3e;
+	border-color: #777777;
+}
+
+.dropdown-menu {
+	width: 250px !important;}
+
+/*slider range uchun */
+code {
+	padding: 2px 4px;
+	font-size: 90%;
+	color: #424376;
+	background-color: #f9f2f4;
+	border-radius: 4px;
+}
