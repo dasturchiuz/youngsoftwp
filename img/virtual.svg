@@ -12,6 +12,7 @@
 	.st6{fill:none;}
 </style>
 <title>virtual</title>
+<a href="https://developer.mozilla.org/en-US/docs/SVG"
 <g>
 	<g id="Слой_1_1_">
 		
@@ -179,6 +180,8 @@
 		</g>
 	</g>
 </g>
+
+      target="_blank">
 <g>
 	<g>
 		<line class="st6" x1="44.4" y1="68.4" x2="44.4" y2="85.1"/>
@@ -219,4 +222,5 @@
 			c0.1-0.2,3.2-6,13.6-5.8c10.4,0.1,13,5.6,13.1,5.8l0.1,0.3v2.6H81.5z"/>
 	</g>
 </g>
+</a>
 </svg>
