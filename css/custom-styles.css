@@ -1946,3 +1946,14 @@ margin: 5px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
+
+#reginfo h3{
+	color: #424676 !important;
+	font-family: Panton-Bold !important;
+}
+
+#reginfo p{
+	color: #424676 !important;
+	font-family: Panton-Regular !important;
+}
+

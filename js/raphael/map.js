@@ -9,7 +9,7 @@ var xovos = rsr.path("M229.3,278.9 239.8,239.3 246.6,218.7 241,201.8 237.2,192.3
 xovos.attr({'fill': '', 'fill-opacity': '0.2','stroke-width': '0','stroke': '#ffffff','stroke-opacity': '0.8'});
 xovos.mouseover(function(e) {
     xovos.attr({"fill": "#424376", 'fill-opacity': '0.2', 'id':'salom', 'href':'Xavas tumani', 'url':'ssssssssssssssssssssssss'});
-   
+    sir_region(0);
     regions.push(xovos);
 });
 xovos.mouseout(function(e) {
@@ -26,7 +26,7 @@ var shirin = rsr.path("M643.7,319.7 636,322.4 633.5,326.2 631.6,328.5 625.8,328.
 shirin.attr({'fill': '', 'fill-opacity': '0.2','stroke-width': '0','stroke': '#ffffff','stroke-opacity': '0.8'});
 shirin.mouseover(function(e) {
     shirin.attr({"fill": "#424376", 'fill-opacity': '0.2', 'id':'salom', 'href':'Shirin shahri', 'url':'ssssssssssssssssssssssss'});
-   
+    sir_region(1);
     regions.push(shirin);
 });
 shirin.mouseout(function(e) {
@@ -40,7 +40,7 @@ var boyovutnew = rsr.path("M529.8,202.7l9.1,7.2l4.1,4.5l1.7,3.2l-0.1,3.6l-1.2,3.
 boyovutnew.attr({'fill': '', 'fill-opacity': '0.2','stroke-width': '0','stroke': '#ffffff','stroke-opacity': '0.8'});
 boyovutnew.mouseover(function(e) {
     boyovutnew.attr({"fill": "#424376", 'fill-opacity': '0.2', 'id':'salom', 'href':'Boyovut  tumani', 'url':'ssssssssssssssssssssssss'});
-   
+    sir_region(2);
     regions.push(boyovutnew);
 });
 boyovutnew.mouseout(function(e) {
@@ -56,7 +56,7 @@ gulistont.attr({'fill': '', 'fill-opacity': '0.2','stroke-width': '0','stroke': 
 
 gulistont.mouseover(function(e) {
     gulistont.attr({"fill": "#424376", 'fill-opacity': '0.2', 'id':'salom', 'href':'Guluston  tumani', 'url':'ssssssssssssssssssssssss'});
-   
+    sir_region(3);
     regions.push(gulistont);
 });
 gulistont.mouseout(function(e) {
@@ -70,7 +70,7 @@ var sayhun = rsr.path("M486.7,118.1h2.8l1.1-1.2l-0.1-1.1l-0.9-1.7l-2.9-2.4l-5.4-
 sayhun.attr({'fill': '', 'fill-opacity': '0.2','stroke-width': '0','stroke': '#ffffff','stroke-opacity': '1'});
 sayhun.mouseover(function(e) {
     sayhun.attr({"fill": "#424376", 'fill-opacity': '0.2', 'id':'salom', 'href':'Sayxunobod tumani', 'url':'ssssssssssssssssssssssss'});
-   
+    sir_region(4);
     regions.push(sayhun);
 });
 sayhun.mouseout(function(e) {
@@ -85,7 +85,7 @@ var zirdaryo = rsr.path("M350.6,106.4l-10.9,3.9l-3.3-5.8l-1.1-3.3l-1.6-1.3l-11.2
 zirdaryo.attr({'fill': '', 'fill-opacity': '0.2','stroke-width': '0','stroke': '#ffffff','stroke-opacity': '1'});
 zirdaryo.mouseover(function(e) {
     zirdaryo.attr({"fill": "#424376", 'fill-opacity': '0.2', 'id':'salom', 'href':'Sirdaryo tumani', 'url':'ssssssssssssssssssssssss'});
-   
+    sir_region(5);
     regions.push(zirdaryo);
 });
 zirdaryo.mouseout(function(e) {
@@ -102,7 +102,7 @@ var gulshahar = rsr.path("M376.4,162.4l-2.1,1.9c0,0-3,0.5-3.3,0.5s-2.9,0-2.9,0l-
 gulshahar.attr({'fill': '', 'fill-opacity': '0.2','stroke-width': '0','stroke': '#ffffff','stroke-opacity': '1'}).data({'id': 'baxmal', 'region': 'Baxmal tumani','url': 'http://jizzax.uz/baxmal/'});
 gulshahar.mouseover(function(e) {
     gulshahar.attr({"fill": "#424376", 'fill-opacity': '0.2', 'id':'poytaxt', 'href':'Guliston shahar', 'url':'ssssssssssssssssssssssss'});
-   
+    sir_region(6);
     regions.push(gulshahar);
 });
 gulshahar.mouseout(function(e) {
@@ -120,7 +120,7 @@ mirzaobod.attr({'fill': '', 'fill-opacity': '0.2','stroke-width': '0','stroke': 
 
 mirzaobod.mouseover(function(e) {
     mirzaobod.attr({"fill": "#424376", 'fill-opacity': '0.2', 'id':'salom', 'href':'Mirzaobod tumani', 'url':'ssssssssssssssssssssssss'});
-   
+    sir_region(7);
     regions.push(mirzaobod);
 });
 mirzaobod.mouseout(function(e) {
@@ -136,7 +136,7 @@ var oqoltin = rsr.path("M188.6,90.6 175.5,102.8 169.9,108.6 160.9,119.5 156.3,11
 oqoltin.attr({'fill': '', 'fill-opacity': '0.2','stroke-width': '0','stroke': '#ffffff','stroke-opacity': '1'}).data({'id': 'mirzachul', 'region': 'Mirzacho\'l tumani','url': 'http://jizzax.uz/mirzachul/'});
 oqoltin.mouseover(function(e) {
     oqoltin.attr({"fill": "#424376", 'fill-opacity': '0.2', 'id':'salom', 'href':'Oqoltin tumani', 'url':'ssssssssssssssssssssssss'});
-   
+    sir_region(8);
     regions.push(oqoltin);
 });
 oqoltin.mouseout(function(e) {
@@ -152,7 +152,7 @@ sardoba.attr({'fill': '', 'fill-opacity': '0.2','stroke-width': '0','stroke': '#
 
 sardoba.mouseover(function(e) {
     sardoba.attr({"fill": "#424376", 'fill-opacity': '0.2', 'id':'salom', 'href':'Sardoba tumani', 'url':'ssssssssssssssssssssssss'});
-   
+    sir_region(9);
     regions.push(sardoba);
 });
 sardoba.mouseout(function(e) {
@@ -168,7 +168,7 @@ yangiyer.attr({'fill': '', 'fill-opacity': '0.2','stroke-width': '0','stroke': '
 
 yangiyer.mouseover(function(e) {
     yangiyer.attr({"fill": "#424376", 'fill-opacity': '0.2', 'id':'salom', 'href':'Yangiyer shahri', 'url':'ssssssssssssssssssssssss'});
-   
+    sir_region(10);
     regions.push(yangiyer);
 });
 yangiyer.mouseout(function(e) {
@@ -178,8 +178,50 @@ yangiyer.mouseout(function(e) {
 });
 
 
+function sir_region(id){
+    var obj = [
+        //Xovos tumani
+        {tumannomi:"Xavas tumani",hokim:"Boboyev Rahimjon Mahamadjonovich",markazi:"Sirdaryo",maydoni:"Sirdaryo",aholisi:"Sirdaryo",telefon:"0 (367) 225-0373",fax:"0 (367) 225-4581",site:"Sirdaryo",email:"gulistan@sirdaryo.uz"},
+        //Shirin shahri
+        {tumannomi:"Shirin shahri",hokim:"Begaliyev Ilhomjon Mahmudjonovich",markazi:"Sirdaryo",maydoni:"Sirdaryo",aholisi:"Sirdaryo",telefon:"0 (367) 764-5090",fax:"0 (367) 264-5090",site:"Sirdaryo",email:"shirin@sirdaryo.uz"},
+//Boyovut new
+        {tumannomi:"Boyavut tumani",hokim:"Ashurmatov Oybek Shodmonqulovich",markazi:"Sirdaryo",maydoni:"Sirdaryo",aholisi:"Sirdaryo",telefon:"0 (367) 390-1090",fax:"0 (367) 262-1358",site:"Sirdaryo",email:"boyovut@sirdaryo.uz"},
+// Guliston tumani
+
+        {tumannomi:"Guliston tumani",hokim:"Ibodullayev Abdumavlon Abduahadovich v/b",markazi:"Sirdaryo",maydoni:"Sirdaryo",aholisi:"Sirdaryo",telefon:"0 (367) 796-3030",fax:"0 (367) 796-2155",site:"Sirdaryo",email:"Sirdaryo"},
+//Sayxunobod tumani
+
+        {tumannomi:"Sayxunobod tumani",hokim:"Egamberdiyev Nosirjon Mahmudovich",markazi:"Sirdaryo",maydoni:"Sirdaryo",aholisi:"Sirdaryo",telefon:"0 (367) 333-2961",fax:"0 (367) 333-2503",site:"Sirdaryo",email:"sayxunobod@sirdaryo.uz"},
+//Sirdaryo tumani
+
+        {tumannomi:"Sirdaryo tumani",hokim:"Nazarov Sobirjon",markazi:"Sirdaryo",maydoni:"Sirdaryo",aholisi:"Sirdaryo",telefon:"0 (367) 357-0868",fax:"0 (367) 357-4808",site:"Sirdaryo",email:"sirdaryotumani@sirdaryo.uz"},
+//Guliston shahri
+
+        {tumannomi:"Guliston shahri",hokim:"Ismatullayev Sherzod Shuxratullayevich",markazi:"Sirdaryo",maydoni:"Sirdaryo",aholisi:"Sirdaryo",telefon:"0 (367) 225-0373",fax:"0 (367) 225-4581",site:"Sirdaryo",email:"gulistan@sirdaryo.uz"},
+//Mirzaobod tumani
+
+        {tumannomi:"Mirzaobod tumani",hokim:"Mirzaobod tumani hokimi",markazi:"Sirdaryo",maydoni:"Sirdaryo",aholisi:"Sirdaryo",telefon:"0 (367) 310-1112",fax:"0 (367) 341-1404",site:"Sirdaryo",email:"mirzaobod@sirdaryo.uz"},
+//Oqoltin tumani
+
+        {tumannomi:"Oqoltin tumani",hokim:"Фазилов Дилмурод Тухмакович",markazi:"Sirdaryo",maydoni:"Sirdaryo",aholisi:"Sirdaryo",telefon:"0 (367) 243-1001",fax:"0 (367) 243-1009",site:"Sirdaryo",email:"oqoltin@sirdaryo.uz"},
+// Sardoba tumani
+
+        {tumannomi:"Sardoba tumani",hokim:"Tursunov Shukurullo Xo’jamqulovich",markazi:"Sirdaryo",maydoni:"Sirdaryo",aholisi:"Sirdaryo",telefon:"0 (367) 344-1777",fax:"0 (367) 344-1351",site:"Sirdaryo",email:"sardoba@sirdaryo.uz"},
+//Yangiyer shahri
+
+        {tumannomi:"Yangiyer shahri",hokim:"Qudratov Isroil Turg`unbayevich",markazi:"Sirdaryo",maydoni:"Sirdaryo",aholisi:"Sirdaryo",telefon:"0 (367) 350-3116",fax:"0 (367) 372-2400",site:"Sirdaryo",email:"iqudratov@sirdaryo.uz"},
 
 
+
+    ];
+
+    $("#shaharyotuman").text(obj[id].tumannomi);
+    $("#hokim").text(obj[id].hokim);
+    $("#telefoni").text(obj[id].telefon);
+    $("#faxi").text(obj[id].fax);
+    $("#emaili").text(obj[id].email);
+
+}
 
 // Iterate through the regions & change Yorkshire's fill colour to gold
 for (var i = 0; i < regions.length; i++) {
