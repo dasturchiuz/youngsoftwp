@@ -1896,6 +1896,10 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active1){
 .xizmatlar li a{
     display: block;
     padding: 10px;
+	font-family: Panton-Regular;
+}
+.list-group a{
+	font-family: Panton-Regular;
 }
 .xizmatlar li a h5{
     margin-bottom: 0px !important;
@@ -1919,17 +1923,7 @@ margin: 5px;
 
 .scrolxizmatlar {
     overflow: hidden;
-
-    height: 261px;
-    padding-right: 10px;
-    border-radius: 3px;
-    margin: 10px 10px 10px 0px;
-
-}
-
-.scrolxizmatlar:hover{
-    overflow: hidden;
-    overflow-y: scroll;
+	overflow-y: scroll;
     height: 261px;
     padding-right: 10px;
     border-radius: 3px;
@@ -1957,8 +1951,25 @@ margin: 5px;
 	font-family: Panton-Regular !important;
 }
 
+/*foydali*/
+.foydali{
+	border: 1px solid #5f5aa6;
+	display: block;
+	text-align: center;
+	padding: 17px;
+	margin-bottom: 20px;
+	font-family: Panton-Regular;
+	min-height: 132px;
+}
+.foydali:hover{
+	color: #fff;
+	background: #5f5aa6;
+}
+.foydalititle{
+	padding: 5px 0px 5px;
+}
 .lgow{
-	height: 135px;
+	height: 122px;
 
 	padding: 15px 0px 0px 0px;
 }
