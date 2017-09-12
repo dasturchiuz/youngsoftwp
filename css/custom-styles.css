@@ -2005,6 +2005,11 @@ div.bhoechie-tab1 div.bhoechie-tab-content1:not(.active2){
     color: #FFFFFF;
     cursor: pointer;
 }
+.xizmatlar li a:hover ~ .bottomtool {
+    background: #5f5aa6;
+    color: #FFFFFF !important;
+    cursor: pointer;
+}
 
 .interaktixxizmat{
 margin: 5px;
@@ -2064,3 +2069,24 @@ margin: 5px;
 
 .arrow {visibility:hidden;}
 .tooltip > .tooltip-inner {background-color: #424376;}
+/*normativ hujja*/
+.bottomtool{
+	padding: 0px 10px 0px;
+}
+.bottomtool a{
+	display: inherit !important;
+ 	padding: 0px !important;
+}
+.bottomtool span{
+font-size: 14px;
+font-family: Panton-Regular;
+}
+
+.bottomtool span:after{
+content: '|';
+padding: 0px 4px 0px;
+
+}.bottomtool span:last-child:after{
+	content: '';
+
+}
