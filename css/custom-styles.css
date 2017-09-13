@@ -1984,32 +1984,25 @@ div.bhoechie-tab1 div.bhoechie-tab-content1:not(.active2){
 
 .xizmatlar li a{
     display: block;
-    padding: 10px;
+	padding: 10px 0px 5px 20px;
 	font-family: Panton-Regular;
+	font-size: 15px;
 }
 .list-group a{
 	font-family: Panton-Regular;
+	font-size: 16px;
 }
-.xizmatlar li a h5{
-    margin-bottom: 0px !important;
-}
-.xizmatlar li{
 
+.xizmatlar li{
     border: 1px solid #5f5aa6;
     margin-bottom: 9px;
     color: #424376;
 }
 
-.xizmatlar li a:hover {
-    background: #5f5aa6;
-    color: #FFFFFF;
-    cursor: pointer;
+.xizmatlar li a:hover{
+	color: #424376;
 }
-.xizmatlar li a:hover ~ .bottomtool {
-    background: #5f5aa6;
-    color: #FFFFFF !important;
-    cursor: pointer;
-}
+
 
 .interaktixxizmat{
 margin: 5px;
@@ -2067,26 +2060,34 @@ margin: 5px;
 	padding: 15px 0px 0px 0px;
 }
 
-.arrow {visibility:hidden;}
-.tooltip > .tooltip-inner {background-color: #424376;}
 /*normativ hujja*/
 .bottomtool{
-	padding: 0px 10px 0px;
+	padding: 0px 20px 0px;
+	color: #0056b3;
+	text-align: center;
 }
 .bottomtool a{
+
 	display: inherit !important;
  	padding: 0px !important;
+	color: #0056b3;
 }
+
+.bottomtool a:hover {
+	color: #0056b3;
+}
+
 .bottomtool span{
-font-size: 14px;
+font-size: 13px;
 font-family: Panton-Regular;
 }
 
 .bottomtool span:after{
-content: '|';
-padding: 0px 4px 0px;
-
-}.bottomtool span:last-child:after{
+	content: ' | ';
+	padding: 0px 4px 0px;
+	color: rgb(111, 112, 148);
+}
+.bottomtool span:last-child:after{
 	content: '';
 
 }
