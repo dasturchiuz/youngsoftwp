@@ -1,3 +1,3 @@
 # youngsoftwp
 Wordpress site
-Nima sanga uyinchoqmi ish :))))) ko'chiraman deysan
+Nima sanga uyinchoqmi ish :)))))
